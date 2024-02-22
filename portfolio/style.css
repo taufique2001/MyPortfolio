@@ -1,0 +1,221 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation styles */
+  .nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  .nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #dp {
+    /* Add styles for the profile picture */
+  }
+  
+  #name {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .anc {
+    display: flex;
+    align-items: center;
+  }
+  
+  #anchor {
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Home section styles */
+  #home {
+    text-align: center;
+    padding: 2em;
+    background-color: #f0f0f0;
+  }
+  
+  .fa-paintbrush {
+    /* Add styles for the paintbrush icon */
+  }
+  
+  #azam {
+    font-size: 2em;
+  }
+  
+  #intro {
+    margin-bottom: 20px;
+  }
+  
+  .btn1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* About section styles */
+  .about {
+    background-color: #fff;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  #me {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  #empty {
+    /* Add styles for the empty box */
+  }
+  
+  #photo {
+    width: 600px;
+    margin-top: 30px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("dp.new.png");
+    background-size: cover;
+    /* Add styles for the photo */
+  }
+  
+  #text {
+    text-align: left;
+  }
+  
+  /* Education section styles */
+  .education {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  #edu {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .edubox {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .box {
+    /* Add styles for the education boxes */
+  }
+  #school {
+    width: 90%;
+    background-image: url("https://mgssdbg.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2021-03-08-at-1.10.53-PM-p45h0o58hev82pmi0glt47z3xod2wj5mlwohv8afxo.jpeg");
+    background-size: cover;
+}
+#inter {
+    width: 90%;
+    background-image: url("https://images.static-collegedunia.com/public/college_data/images/appImage/25413_LNMU_NEW.jpg?tr=w-300,h-300,c-force");
+
+    background-size: cover;
+}
+#college {
+    background-image: url(https://www.rntu.ac.in/slider/images/banner3.jpg);
+    background-size: contain;
+    width: 90%;
+}
+  
+  /* Projects section styles */
+  .projects {
+    background-color: #fff;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  #proj {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .mypro {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #tic {
+    background-image: url(tic-toc.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 50vh;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+#paper {
+    background-image: url(rock.paper.sci.jpg);
+    background-size: contain;
+    width: 90%;
+    height: 50vh;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+#currency {
+    background-image: url(currency.jpg);
+    background-size: contain;
+    width: 90%;
+    height: 50vh;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+  
+  /* Contact section styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .contact {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .email {
+    margin-bottom: 20px;
+  }
+  
+  .icons {
+    font-size: 1.5em;
+  }
+  
+  /* Responsive design */
+  @media only screen and (max-width: 768px) {
+    .nav2 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .anc {
+      margin-top: 10px;
+    }
+    .edubox{
+        flex-direction: column;
+    }
+  
+    .mypro {
+      flex-direction: column;
+    }
+  }
+  
